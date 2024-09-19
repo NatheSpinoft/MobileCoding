@@ -1,2 +1,18 @@
-# ignore gradle
+# Ignore the .gradle directory (Gradle cache and temporary files)
 .gradle/
+
+# Ignore Gradle build outputs
+build/
+
+# Ignore any generated .jar, .war, or .class files
+*.jar
+*.war
+*.class
+
+# Ignore generated files like .iml and .ipr (IDE specific files)
+*.iml
+*.ipr
+*.iws
+
+# Ignore log files
+*.log
